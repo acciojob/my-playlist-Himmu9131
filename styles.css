@@ -1,1 +1,51 @@
 /*  your css code here. If applicable */
+ body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #d3d3d3;
+            text-align: center;
+        }
+.my-playlist{
+	 width: 90%; /* Adjust width as needed */
+            margin: 10px auto; /* Center the container */
+            padding: 20px;
+            background-color: white; /* Background color of the playlist box */
+            border: 2px solid black; /* Outline border */
+            border-radius: 10px; /* Rounded corners */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+ul {
+            list-style-type: none; /* Remove bullet points */
+            padding: 0;
+            margin: 0;
+            text-align: left;
+        }
+.now-playing{
+	        width: 80%;
+	       
+            margin: 50px auto;
+            padding: 20px 20px 150px 20px;
+            background-color: white; /* Background color of the playlist box */
+            border: 2px solid black; /* Outline border */
+            border-radius: 10px; /* Rounded corners */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+#image{
+	width:99%;
+	height:600px;
+	 padding: 1px;
+     margin: 1px;
+}
+.player_one{
+	width:99%;
+	background-color: rgb(255, 255, 255);
+	padding:10px;
+	border-radius:10px;
+}
+.player_two{
+	width:99%;
+	background-color: rgb(255, 255, 255);
+	padding:10px;
+	border-radius:10px;
+}
